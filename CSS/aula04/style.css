@@ -1,0 +1,11 @@
+#container {
+    background-color: aliceblue;
+}
+
+.quadrados {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border: black 2px dashed;
+    border-radius: 100px;
+}

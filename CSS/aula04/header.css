@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Gravitas+One&display=swap');
+
+
+
+body {
+    background-color:darkgoldenrod;
+}
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#logo {
+    height: 50px;
+}
+#foto-perfil {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#usuario {
+    display: flex;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+a {
+    font-family: "Cormorant", serif;
+    padding-left: 19px;
+    /*  text-decoration: none remove o sublinhado do link ou quaisquer outras decorações que uma tag textual possa ter */
+    text-decoration: none;
+}
+#nome-usuario {
+    font-family: "Gravitas One", serif;
+}
+#header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: black;
+    height: 400px;
+}
+#direitos {
+    color: white;
+    font-size: 30px;
+}
